@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toogle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">El Bazar!</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li> <a href="contacto.html">Contacto</a> </li>
+                    <li> <a href="carrito.html"> <span class="glyphicon glyphicon-shopping-cart"></span> Carrito</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><img src="imagenes/user.png" alt="user" width="50px"></li>
+                    <li> <a href="#">User Name</a> </li>
+
+                    <li class="active"> <a href="micuenta.html"> <span class="glyphicon glyphicon-user"></span> Mi
+                            cuenta</a></li>
+                    <li> <a href="login.html"> <span class="glyphicon glyphicon-log-in"></span> Login </a> </li>
+                    <li> <a href="logout.html"> <span class="glyphicon glyphicon-log-out"></span> Logout </a> </li>
+
+                </ul>
+
+                <form action="busquedaP.html" class="navbar-form navbar-right">
+
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                        <ul class="dropdown-menu dropdown-">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                        </ul>
+    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                        </div>
+                        <button type="submit" class="btn btn-info">
+                            <span class="glyphicon glyphicon-search"></span> Buscar
+                        </button>
+                    </form>
+    
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center" id="contenidoProducto">
+        <div class="row content">
+            <div class="col-sm-2 ">
+            </div>
+
+            <div class="col-md-8 text-left">
+                <div class="well" id="contenedor">
+                    <ol class="breadcrumb text-center">
+                        <li class="active"> Mi Informacion</li>
+                        <li><a href="direccionM.html">Mi Direccion</a></li>
+                        <li><a href="micorreo.html">Mi Correo</a></li>
+                        <li><a href="micontraseña.html">Mi Contraseña</a></li>
+                    </ol>
+                    <h2 class="text-center">Mi cuenta </h2>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="imagen">Mi imagen: </label>
+                            <br>
+                            <br>
+                            <img src="imagenes/user.png" alt="user image" width="200px">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="imagen">Nueva imagen: </label>
+                            <br>
+                            <br>
+                            <input type="file" name="imagennew" id="Newuserimage">
+                        </div>
+                        <br><br>
+                        <div class="form-group text-left">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" class="form-control" required
+                                placeholder="Escriba su(s) Nombre(s)">
+                        </div>
+
+                        <div class="form-group text-left">
+                            <label for="apellidoP">Apellido Paterno:</label>
+                            <input type="text" name="apellidoP" id="apellidoP" class="form-control" required
+                                placeholder="Escriba su Apellido Paterno">
+                        </div>
+
+                        <div class="form-group text-left">
+                            <label for="apellidoM">Apellido Materno:</label>
+                            <input type="text" name="apellidoM" id="apellidoM" class="form-control"
+                                placeholder="Escriba su Apellido Materno">
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="text-center">
+                                <input type="submit" value="Guardar" class=" btn btn-primary" role="button">
+                            </div>
+
+                            <div class="text-right">
+                                <input type="checkbox" name="Modificar" id="modificar_informacion"> Modificar
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-sm-2 ">
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>Todos los derechos reservados &copy;</p>
+        <br>
+        <a href="aviso.html"> Aviso de privacidad </a>
+    </footer>
+
+</body>
+
+</html>

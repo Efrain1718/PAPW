@@ -1,0 +1,113 @@
+
+h1,h2,h3,h4,h5{
+    font-family: 'Livvic', sans-serif;
+}
+
+h1,h2{
+    font-size: 50px;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.jumbotron{
+   background-image:url(../imagenes/ele3.jpg);
+   color:white;
+   
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+footer{
+    background-color:#ad8c09;
+    color: white;
+    padding:25px;
+}
+.row{
+    margin: 15px;
+}
+
+#productoD{
+    margin: 5px;
+}
+
+footer {
+    color: black;
+}
+footer > a{
+    color: black;
+}
+
+#contenidoProducto{
+    margin-top: 40px;
+}
+.sidenav{
+    background-color: #f1f1f1;
+}
+.row.content{
+    height: auto;
+}
+
+th{
+    background-color:#ad8c09;
+    color:black;
+}
+td{
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+#chat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  #chat::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  #chat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  #chat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }

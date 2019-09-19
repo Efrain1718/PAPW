@@ -1,0 +1,176 @@
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Perros de Raza</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="razas.hmtl">Razas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="razaschicas.hmtl">Razas Chicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="razasmedianas.hmtl">Razas Medianas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="razasgrande.hmtl">Razas Grandes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.hmtl">Contacto</a>
+                </li>
+
+                <li class="nav-item" id="login">
+                    <a class="nav-link" href="login.hmtl"><i class="fa fa-fw fa-user"></i> Login</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Los mejores Productos de México</h1>
+            <p>"Siempre cumpliendo con tus expectativas"</p>
+        </div>
+
+    </div>
+
+    <!-- cards -->
+    <div class="row">
+
+
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/ed1.jpg" class="card-img-top" alt="error 404">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre Producto</h5>
+                    <p class="card-text">descripcion..</p>
+                    <a href="#" class="btn btn-primary">Ir al Producto</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/ed2.jpg" class="card-img-top" alt="error 404">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre Producto</h5>
+                    <p class="card-text">descripcion..</p>
+                    <a href="#" class="btn btn-primary">Ir al Producto</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/ed3.jpg" class="card-img-top" alt="error 404">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre Producto</h5>
+                    <p class="card-text">descripcion..</p>
+                    <a href="#" class="btn btn-primary">Ir al Producto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/ed4.jpg" class="card-img-top" alt="error 404">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre Producto</h5>
+                    <p class="card-text">descripcion..</p>
+                    <a href="#" class="btn btn-primary">Ir al Producto</a>
+                </div>
+            </div>
+        </div>
+   
+        <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/ed5.jpg" class="card-img-top" alt="error 404">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre Producto</h5>
+                        <p class="card-text">descripcion..</p>
+                        <a href="#" class="btn btn-primary">Ir al Producto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/ed6.jpg" class="card-img-top" alt="error 404">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre Producto</h5>
+                            <p class="card-text">descripcion..</p>
+                            <a href="#" class="btn btn-primary">Ir al Producto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/ed7.jpg" class="card-img-top" alt="error 404">
+                            <div class="card-body">
+                                <h5 class="card-title">Nombre Producto</h5>
+                                <p class="card-text">descripcion..</p>
+                                <a href="#" class="btn btn-primary">Ir al Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagenes/ed8.jpg" class="card-img-top" alt="error 404">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nombre Producto</h5>
+                                    <p class="card-text">descripcion..</p>
+                                    <a href="#" class="btn btn-primary">Ir al Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="imagenes/ed1.jpg" class="card-img-top" alt="error 404">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nombre Producto</h5>
+                                        <p class="card-text">descripcion..</p>
+                                        <a href="#" class="btn btn-primary">Ir al Producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="imagenes/ed2.jpg" class="card-img-top" alt="error 404">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nombre Producto</h5>
+                                            <p class="card-text">descripcion..</p>
+                                            <a href="#" class="btn btn-primary">Ir al Producto</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+    </div>
+
+
+
+    <footer class="container-fluid text-center">
+        <p>Todos los derechos reservados &copy;</p>
+    </footer>
+
+</body>
